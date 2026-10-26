@@ -4,7 +4,6 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // Ask for the array size
         System.out.print("Enter the size of the array: ");
         int size = Integer.parseInt(scanner.nextLine());
 
@@ -16,7 +15,6 @@ public class Main {
 
         int[] numbers = new int[size];
 
-        // Read the numbers entered by the user
         System.out.println("Enter the integers into the array:");
 
         for (int i = 0; i < size; i++) {
@@ -28,11 +26,10 @@ public class Main {
         int[] unique = new int[size];
         int uniqueCount = 0;
 
-        // Check each number in the original array
+        // Check each number for duplicates
         for (int i = 0; i < size; i++) {
             boolean found = false;
 
-            // Check if the number is already in the new array
             for (int j = 0; j < uniqueCount; j++) {
                 if (numbers[i] == unique[j]) {
                     found = true;
@@ -40,7 +37,7 @@ public class Main {
                 }
             }
 
-            // Add the number if it is not already there
+            // Add the number if it is not already in the array
             if (!found) {
                 unique[uniqueCount] = numbers[i];
                 uniqueCount++;

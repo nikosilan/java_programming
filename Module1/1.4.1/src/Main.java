@@ -8,11 +8,13 @@ public class Main {
 
         // Lists of first names and last names
         String[] firstNames = {
-                "Alex", "Jamie", "Taylor", "Morgan", "Sam"
+                "Matti", "Mikko", "Juhani", "Aleksi", "Elias",
+                "Anna", "Sofia", "Emilia", "Aino", "Liisa"
         };
 
         String[] lastNames = {
-                "Smith", "Johnson", "Brown", "Wilson", "Davis"
+                "Korhonen", "Virtanen", "Mäkinen", "Nieminen", "Mäkelä",
+                "Hämäläinen", "Laine", "Heikkinen", "Koskinen", "Järvinen"
         };
 
         System.out.print("How many names should be generated? ");

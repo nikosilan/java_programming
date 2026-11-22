@@ -1,0 +1,76 @@
+/* Käyttöliittymän ulkoasu */
+.root {
+    -fx-font-family: "System";
+    -fx-font-size: 14px;
+}
+
+.app-root {
+    -fx-background-color: linear-gradient(to bottom right, #f4f7fb, #e8eef7);
+}
+
+.header {
+    -fx-padding: 8 4 22 4;
+}
+
+.title {
+    -fx-font-size: 29px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #17243a;
+}
+
+.subtitle {
+    -fx-font-size: 14px;
+    -fx-text-fill: #66758a;
+}
+
+.field-label {
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #34445c;
+}
+
+.text-field, .combo-box {
+    -fx-background-color: white;
+    -fx-border-color: #d5deea;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-padding: 10px;
+    -fx-font-size: 14px;
+}
+
+.text-field:focused, .combo-box:focused {
+    -fx-border-color: #3978d6;
+}
+
+#tulosKentta {
+    -fx-font-weight: bold;
+    -fx-text-fill: #176044;
+    -fx-background-color: #f1fbf6;
+}
+
+.primary-button {
+    -fx-background-color: #2867c7;
+    -fx-text-fill: white;
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-padding: 12px 20px;
+    -fx-background-radius: 8px;
+    -fx-cursor: hand;
+}
+
+.primary-button:hover {
+    -fx-background-color: #1e55a8;
+}
+
+.status {
+    -fx-text-fill: #64748b;
+    -fx-font-size: 13px;
+}
+
+.status.success {
+    -fx-text-fill: #176044;
+}
+
+.status.error {
+    -fx-text-fill: #b42318;
+}

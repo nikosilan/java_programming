@@ -1,0 +1,5 @@
+model\Note.class
+view\NotebookApp.class
+model\Notebook.class
+controller\NoteController$1.class
+controller\NoteController.class
